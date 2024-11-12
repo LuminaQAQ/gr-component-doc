@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 开始使用
-      link: /markdown-examples
+      link: /start
     - theme: alt
       text: 在GitHub上查看
-      link: /api-examples
+      link: https://github.com/LuminaQAQ/gr-component-doc
 features:
   - icon: 🛠️
     title: 易用性强

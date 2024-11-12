@@ -21,8 +21,7 @@ export default defineConfig({
       {
         text: '开发指南',
         items: [
-          // { text: 'Container 布局容器', link: '/gr-container' },
-          // { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '快速上手', link: '/start' },
         ]
       },
       {
