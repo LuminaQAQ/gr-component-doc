@@ -39,7 +39,7 @@ onMounted(() => {
 
 ## 自定义样式
 
-移步到 [CSS Part](#css-part)。
+移步到 [CSS Part](#gr-component-css-part)。
 
 ## 基本用法
 
@@ -71,38 +71,45 @@ onMounted(() => {
 
 ## Gr-aside-item Attributes
 
-| 参数  | 说明                  | 类型   | 可选值 | 默认值 |
-| ----- | --------------------- | ------ | ------ | ------ |
-| path | Aside 的宽度，单位 px | number | -      | 200    |
+| 参数  | 说明                                              | 类型   | 可选值 | 默认值 |
+| ----- | ------------------------------------------------- | ------ | ------ | ------ |
+| path  | 路由路径（需要与 `Gr-page` 组件的 `path` 相匹配） | string | -      | -      |
+| title | 导航标题                                          | string | -      | -      |
+| desc  | 导航描述                                          | string | -      | -      |
+
+## Gr-page Attributes
+
+| 参数 | 说明                                                    | 类型   | 可选值 | 默认值 |
+| ---- | ------------------------------------------------------- | ------ | ------ | ------ |
+| path | 路由路径（需要与 `Gr-aside-item` 组件的 `path` 相匹配） | string | -      | -      |
+
+## Gr-component CSS Part
+
+> 用法可参考 [MDN ::part()伪类](https://developer.mozilla.org/zh-CN/docs/Web/CSS/::part)
+
+| 名称            | 说明                                           |
+| --------------- | ---------------------------------------------- |
+| main-container  | 根容器                                         |
+| aside-wrap      | 侧边栏容器                                     |
+| switch-btn      | 侧边栏切换按钮                                 |
+| cursor          | 侧边栏的游标（即跟随导航选中的对应元素的切换） |
+| user-aside-wrap | 插槽 `slot="aside"` 的父容器                   |
+| user-pages-wrap | 插槽 `slot="pages"` 的父容器                   |
+
+## Gr-aside-item CSS Part
+
+> 用法可参考 [MDN ::part()伪类](https://developer.mozilla.org/zh-CN/docs/Web/CSS/::part)
+
+| 名称      | 说明     |
+| --------- | -------- |
+| container | 根容器   |
+| title     | 标题容器 |
+| desc      | 描述容器 |
 
 ## Gr-page CSS Part
 
 > 用法可参考 [MDN ::part()伪类](https://developer.mozilla.org/zh-CN/docs/Web/CSS/::part)
 
-| 名称      | 说明 |
-| --------- | ---- |
-| container | 容器 |
-
-## Header CSS Part
-
-| 名称      | 说明 |
-| --------- | ---- |
-| container | 容器 |
-
-## Aside CSS Part
-
-| 名称      | 说明 |
-| --------- | ---- |
-| container | 容器 |
-
-## Main CSS Part
-
-| 名称      | 说明 |
-| --------- | ---- |
-| container | 容器 |
-
-## Footer CSS Part
-
-| 名称      | 说明 |
-| --------- | ---- |
-| container | 容器 |
+| 名称      | 说明   |
+| --------- | ------ |
+| container | 根容器 |
