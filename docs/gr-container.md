@@ -83,6 +83,13 @@ onMounted(() => {
 | ---- | ------------------------------------------------------- | ------ | ------ | ------ |
 | path | 路由路径（需要与 `Gr-aside-item` 组件的 `path` 相匹配） | string | -      | -      |
 
+## Gr-component Event
+
+| 名称              | 说明                         | 回调参数                          |
+| ----------------- | ---------------------------- | --------------------------------- |
+| gr-component-load | 当元素成功渲染时，触发该事件 | -                                 |
+| gr-aside-toggle   | 当元素成功渲染时，触发该事件 | `e.detail.isHide`: 侧边栏是否收起 |
+
 ## Gr-component CSS Part
 
 > 用法可参考 [MDN ::part()伪类](https://developer.mozilla.org/zh-CN/docs/Web/CSS/::part)
