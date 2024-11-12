@@ -68,3 +68,41 @@ onMounted(() => {
 ```
 
 :::
+
+## Gr-aside-item Attributes
+
+| 参数  | 说明                  | 类型   | 可选值 | 默认值 |
+| ----- | --------------------- | ------ | ------ | ------ |
+| path | Aside 的宽度，单位 px | number | -      | 200    |
+
+## Gr-page CSS Part
+
+> 用法可参考 [MDN ::part()伪类](https://developer.mozilla.org/zh-CN/docs/Web/CSS/::part)
+
+| 名称      | 说明 |
+| --------- | ---- |
+| container | 容器 |
+
+## Header CSS Part
+
+| 名称      | 说明 |
+| --------- | ---- |
+| container | 容器 |
+
+## Aside CSS Part
+
+| 名称      | 说明 |
+| --------- | ---- |
+| container | 容器 |
+
+## Main CSS Part
+
+| 名称      | 说明 |
+| --------- | ---- |
+| container | 容器 |
+
+## Footer CSS Part
+
+| 名称      | 说明 |
+| --------- | ---- |
+| container | 容器 |
