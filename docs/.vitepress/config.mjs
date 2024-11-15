@@ -29,6 +29,12 @@ export default defineConfig({
         items: [
           { text: 'Container 布局容器', link: '/gr-container' },
         ]
+      },
+      {
+        text: '展示组件',
+        items: [
+          { text: 'Carousel 轮播图', link: '/gr-carousel' },
+        ]
       }
     ],
 

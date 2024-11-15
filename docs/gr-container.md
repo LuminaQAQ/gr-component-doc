@@ -46,16 +46,16 @@ onMounted(() => {
 ::: tip
 因为包含 `wheel` 和 `touch` 事件，所以在本页面体验会大打折扣。
 
-推荐到到 [此处](https://luminaqaq.github.io/GrayRaven/GrComponent/index.html#News) 进行体验
+推荐到 [此处](https://luminaqaq.github.io/GrayRaven/components/gr-component/index.html#Home) 进行体验
 :::
 
-<iframe width="100%" height="500" src="https://luminaqaq.github.io/GrayRaven/GrComponent/index.html#News">
+<iframe width="100%" height="500" src="https://luminaqaq.github.io/GrayRaven/components/gr-component/index.html#Home">
 </iframe>
 
 ::: details 查看代码
 
 ```html
-<gr-component active="News">
+<gr-component>
   <ul slot="aside">
     <gr-aside-item path="Home" title="首页" desc="HOME"></gr-aside-item>
     <gr-aside-item path="News" title="新闻" desc="NEWS"></gr-aside-item>
