@@ -34,6 +34,7 @@ export default defineConfig({
         text: '展示组件',
         items: [
           { text: 'Carousel 轮播图', link: '/gr-carousel' },
+          { text: 'Tab 标签页', link: '/gr-tab' },
         ]
       }
     ],
