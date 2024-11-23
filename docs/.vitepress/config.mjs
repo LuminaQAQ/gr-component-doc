@@ -35,6 +35,7 @@ export default defineConfig({
         items: [
           { text: 'Carousel 轮播图', link: '/gr-carousel' },
           { text: 'Tab 标签页', link: '/gr-tab' },
+          { text: 'Card 卡片', link: '/gr-card' },
         ]
       }
     ],

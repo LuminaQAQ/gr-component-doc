@@ -270,12 +270,6 @@ window.$renderGrList(root, optionsArr);
 | ---- | -------- | ------ | ------ | ------ |
 | href | 链接地址 | string | -      | -      |
 
-## Gr-tabs Slot
-
-| 参数 | 说明     | 类型   | 可选值 | 默认值 |
-| ---- | -------- | ------ | ------ | ------ |
-| href | 链接地址 | string | -      | -      |
-
 ## Gr-list Slot
 
 | 名称   | 说明     |
