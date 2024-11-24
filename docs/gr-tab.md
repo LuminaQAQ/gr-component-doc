@@ -79,7 +79,7 @@ onMounted(() => {
 
 ## 自定义样式
 
-移步到 [CSS Part](#gr-carousel-css-part)。
+移步到 [CSS Part](#gr-tabs-css-part)。
 
 ## 基本用法
 

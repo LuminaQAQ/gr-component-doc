@@ -27,7 +27,7 @@ const handleUrls = () => {
 }
 
 /**
- * 创建 `gr-picure` 元素，并推荐
+ * 创建 `gr-picure` 元素，并渲染
  * @param {HTMLElement} root 根容器 
  */
 const createItem = (root) => {

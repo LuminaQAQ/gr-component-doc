@@ -36,6 +36,7 @@ export default defineConfig({
           { text: 'Carousel 轮播图', link: '/gr-carousel' },
           { text: 'Tab 标签页', link: '/gr-tab' },
           { text: 'Card 卡片', link: '/gr-card' },
+          { text: 'Picture 壁纸', link: '/gr-picture' },
         ]
       }
     ],
